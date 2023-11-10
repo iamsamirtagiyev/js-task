@@ -17,7 +17,7 @@ myFunction(array, 5)
 let array2 = []
 
 const findMultiples = (number, limit) =>{
-    for(let i = number; i <= limit; i+=number){
+    for(let i = number; i <= limit; i*=2){
         array2.push(i)
     }
     console.log(array2)
